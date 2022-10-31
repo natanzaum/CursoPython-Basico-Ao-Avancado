@@ -16,3 +16,10 @@ while a <= 1000:
     a +=1
 else: #entra no else depois q a condição do çao fica falsa. Se usar o brak ele pula o else tb!
     print("Terminei!!!!")
+
+frase = 'O rato roeu a roupa do rei de Roma'
+contador = 0
+
+while contador < len(frase):
+    print(frase[contador], contador)
+    contador += 1
